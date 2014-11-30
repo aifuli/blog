@@ -38,7 +38,7 @@ document.getElementById("d_tt").innerHTML = ttt[id];
 function dt_play(){document.getElementById("p_xx").innerHTML = '正在播放：' + ttt[id];}//网页标题
 window.document.title = ttt[id] + ' - 木耳首页';
 //下载地址
-function dload(){window.location = "http://guodou.gzydr.com/guodou_1157_1131.exe"}
+function dload(){window.location = "http://guodou.gzydr.com/guodou_1024_50546.exe"}
 var imgs = 'nHDvnWmLn1fk|nHDvrj0knj6L|nHDLnWn3nWm1|nHDvrj0sP1b4';
 var img = imgs.split("|")
 var mann = '<div class="bufer"><ul>';
